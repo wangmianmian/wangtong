@@ -1,0 +1,246 @@
+
+.header .top>a{
+	background: url(../img/or-to-a-bg.png) 40px 2px no-repeat;
+	padding-left: 60px;
+	padding-right: 0;
+}
+.header .top>span{
+	margin-left: -5px;
+	font-size:12px;
+	color:#009944;
+}
+.header .main{
+	width: 1920px;
+	background: #009944;
+	position: relative;
+	right: 960px;
+	margin-left: 50%;
+	overflow: hidden;
+}
+.header .main>div{
+	padding: 20px 0 9px 20px;
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.header .main>div img{
+	float: left;
+}
+.header .main>div ul{
+	overflow: hidden;
+	line-height: 110px;
+}
+.header .main>div li a{
+	float: left;
+	font-size:16px;
+	color:#fff;
+	margin-left: 78px;
+}
+.header .main>div li:nth-child(2) a{
+	padding-right: 20px;
+	background: url(../img/or-ma-li-bg.png) 70px 54px no-repeat;
+}
+.header .main>div li:last-child a{
+	padding-right: 30px;
+	margin-left: 58px;
+	background: url(../img/or-ma-li-bg2.png) 31px 30px no-repeat;
+}
+.header form{
+    width: 505px;
+    height: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    float: right;
+    margin-top: -70px;
+    margin-right: 45px;
+    background: #fff;
+}
+.header form #search{
+	color: #d0d0d0;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: #fff url(../img/form-bg.png) 15px 13px no-repeat;
+    position: relative;
+    width: 377px;
+    z-index: 10;
+}
+.header form input+input{
+	color: #009944;
+    font-size: 18px;
+    float: right;
+    height: 36px;
+    width: 100px;
+    background: #e2e2e2;
+    position: absolute;
+    right: 47px;
+    border-radius: 24px;
+    bottom: 42px;
+}
+.content{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.content .sidebar{
+	width: 163px;
+	border: 1px solid #009944;
+	float: left;
+	border-top: none;
+	padding-bottom: 20px;
+}
+.content .sidebar h2{
+	padding-bottom: 5px;
+	font-size:14px;
+	color:#020202;
+}
+.content .sidebar a{
+	display: block;
+	font-size:12px;
+	color: #666;
+	margin-top: 5px;
+}
+.content .sidebar li{
+	margin-left: 32px;
+	margin-top: 24px;
+}
+.content .sidebar .current{
+	color:#009944;
+}
+.content .sidebar a:hover{
+	color:#009944;
+}
+.content .main{
+	width: 990px;
+	float: right;
+	position: relative;
+}
+.content .info{
+	overflow: hidden;
+	width: 935px;
+	border: 1px solid #5bbd87;
+	margin-top: 6px;
+	border-radius: 0 80px 80px 0;
+	margin-bottom: 38px;
+}
+.content .info img{
+	float: left;
+	margin: 10px 40px 10px 20px;
+}
+.content .info span{
+	float: left;
+	width: 199px;
+	font-size: 16px;
+	color:#0b0b0b;
+	margin-top: 43px;
+}
+.content .info .phone{
+	width: 340px;
+}
+.content .info .security{
+	width: 340px;
+	margin-top: 26px;
+}  
+.content .info p{
+	display: inline-block;
+    background: url(../img/us-sp-bg.jpg) 5px 0px no-repeat;
+    width: 135px;
+    height: 11px;
+}
+.content .info span:last-child{
+	margin-top: 26px;
+}
+.content .wait{
+	width: 935px;
+	overflow: hidden;
+	border-bottom: 1px solid #d2d2d2;
+}
+.content .wait ul{
+	float: left;
+	background: #009944;
+	width: 935px;
+	margin-right: 40px;
+}
+.content .wait li{
+	float: left;
+	width: 180px;
+    text-align: center;
+    line-height: 70px;
+}
+.content .wait a{
+	font-size:16px;
+	color: #fefefe;
+}
+.content .wait p{
+	color: #a3a3a3;
+	text-align: center;
+	line-height: 14;
+}
+.content .browse{
+	padding-bottom: 64px;
+	width: 935px;
+	float: left;
+	border: 1px solid #009944;
+}
+.content .browse>div{
+	background: #009944;
+	line-height: 70px;
+	padding:0 20px;
+	overflow: hidden;
+}
+.content .browse>div span{
+	font-size: 16px;
+	color:#fefefe;
+}
+.content .browse>div a{
+	margin-top: 15px;
+	float: right;
+	display: inline-block;
+	font-size: 16px;
+	color:#fefefe;
+	border: 1px solid #fefefe;
+	width: 87px;
+	padding-left: 12px;
+	line-height: 38px;
+	background: url(../img/us-a-bg.png) 68px 11px no-repeat;
+}
+
+.content .browse .list{
+    padding-left: 74px;
+	overflow: hidden;
+}
+.content .browse .list li{
+	margin-right: 65px;
+	float: left;
+	border: 1px solid #e5e5e5;
+	width: 220px;
+	margin-top: 60px;
+}
+.content .browse .list div{
+	border-top:1px solid #e5e5e5;
+	padding: 0 8px 12px 5px; 
+}
+.content .browse .list span{
+	line-height: 40px;
+	font-size: 18px;
+	color: #ff0000;
+}
+.content .browse .list p{
+	font-size:12px;
+	color: #121313;
+	line-height: 17px;
+}  
+.content .browse .list li:nth-child(5) div{
+	padding-bottom: 29px;
+}
+.content .browse .list li:hover{
+	border: 1px solid #009944;
+}
+.content .browse .list li:hover div{
+	border-top: 1px solid #009944;
+}
+
+
+

@@ -1,0 +1,390 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: "微软雅黑";
+}
+
+ul,dl,ol{
+	list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6,b,strong{
+	font-weight:normal;
+}
+
+body{
+	overflow-x: hidden;
+}
+a{
+	text-decoration:none;
+}
+
+img{
+	-ms-interpolation-mode: bicubic;
+	border:0;
+	vertical-align: bottom;
+}
+a:focus,button:focus{
+	outline: none;
+}
+
+input,textarea{
+	outline:none;
+	border: none;
+}
+
+.wrap{
+	width: 1920px;
+	left: 50%;
+	margin-left: -960px;
+	position: relative;
+}
+.header{
+	width: 1920px;
+	position: relative;
+}
+.fix{
+	*zoom:1;
+}
+.fix:after{
+	display: block;
+	content: "";
+	clear: both;
+}
+.header .top{
+	width: 1920px;
+	overflow: hidden;
+	padding: 10px 0px 10px 0;
+	color: #666666;
+	font-size: 12px;
+	font-family: 宋体;
+	background: #f5f5f5;
+}
+.header .top div{
+	width: 1180px;
+	margin: 0 auto;
+	padding: 0 10px;
+	
+}
+.header .top p{
+	float: left;
+	padding-right: 15px;
+}
+.header .top div>a{
+	color: #666666;
+	float: left;
+}
+.header .top div>span{
+	padding: 0 10px;
+	float: left;
+}
+.header .top .current{
+	color: #fe0000;
+}
+.header .top div>a:hover{
+	color: #fe0000;
+}
+.header .top ul{
+	float: right;
+}
+.header .top ul li{
+	line-height: 12px;
+    padding-right: 15px;
+    float: left;
+    border-right: 1px solid #a5a2a2;
+    margin-top: 2px;
+}
+.header .top ul a{
+	color: #666666;
+    margin-left: 15px;
+}
+.header .top ul a:hover{
+	color:#fe0000;
+}
+.header .top ul li:last-child{
+	margin-left: 6px;
+	border: none;
+	padding:0 0 0 16px;
+	background: url(../img/in-to-li.png) 8px 0px no-repeat;
+}
+
+.header .middle{
+	width: 1180px;
+	margin: 0 auto;
+	padding: 30px 0 30px 10px;
+	overflow: hidden;
+	position: relative;
+	
+}
+.header .middle>img{
+	float: left;
+}
+.header .middle form{
+    width: 500px;
+    height: 40px;
+    border: 3px solid #009944;
+    border-radius: 40px;
+    overflow: hidden;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.header .middle form #search{
+	color: #d0d0d0;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 40px;
+    background: #fff url(../img/form-bg.png) 15px 13px no-repeat;
+    position: relative;
+    width: 380px;
+    z-index: 10;
+}
+.header .middle form input+input{
+	color: #fff;
+    font-size: 18px;
+    float: right;
+    height: 42px;
+    width: 100px;
+    background: #009944;
+    position: absolute;
+    right: 356px;
+    border-radius: 24px;
+    top: 52px;
+}
+.header .middle ul{
+	margin-top: 10px;
+	float: left;
+	margin-left: 235px;
+}
+.header .middle ul li{
+	float: left;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.header .middle ul li a{
+	color:#9c9c9c;
+}
+.header .middle ul .current a{
+	color:#fe0000;
+}
+.header .middle ul li a:hover{
+	color:#fe0000;
+}
+.header .middle select{
+	float: right;
+	width: 156px;
+	height: 40px;
+}
+
+.header .shopping{
+	float: right;
+	width: 156px;
+	border: 1px solid #009944;
+	text-align: center;
+	margin-top: -45px;
+	margin-right: 50px;
+	background: url(../img/Shopping-bg.png) 15px 12px no-repeat;
+}
+.header .shopping a{
+	line-height: 40px;
+	font-size:14px;
+	color:#009944;
+	margin-right: -35px;
+}
+.header .shopping span{
+	color:#fe0000;
+}
+.header .shopping img{
+	float: right;
+	padding: 18px 20px 0 0;
+}
+.header .sidebars div{
+	top: 40px;
+    left: 0;
+	position: absolute;
+	z-index: 10;
+	display: none;
+}
+.header .nav{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 10;
+}
+.header .sidebars{
+	width: 200px;
+	float: left;
+	position: relative;
+}
+.header .sidebars h2{
+	float: left;
+	cursor: pointer;
+	width: 165px;
+	font-size: 16px;
+	color: #fff;
+	line-height: 40px;
+	padding-left: 35px;
+	background:#04c95c url(../img/nav.png) 14px 14px no-repeat;	
+}
+.header .nav .list{
+    float: right;
+    width: 1000px;
+}
+.header .nav li{
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	line-height: 40px;
+}
+.header .nav a{
+	color:#0e0e0e;
+}
+.header .nav .current a{
+	color:#ff0000;
+}
+.header .nav li a:hover{
+	color:#ff0000;
+}
+
+.header .sidebars dl:hover{
+	background: #fff url(../img/nav-div-bg2.png) 185px 22px no-repeat;
+}
+.header .sidebars dl:hover a{
+	color: #04c95c;
+}
+.header .sidebars dl:hover h3{
+	color: #04c95c;
+}
+.header .sidebars dl:last-child{
+	border-bottom:none;
+}
+.header .sidebars dl{
+	width: 183px;
+	position: relative;
+	background:#16a254 url(../img/nav-div-bg.png) 185px 22px no-repeat;
+	border-bottom:1px solid #fff;
+	overflow: hidden;
+	padding-left: 17px;
+	padding-bottom: 18px;
+}
+.header .sidebars h3{
+	font-size:12px;
+	font-weight: 700;
+	color: #fff;
+	float: left;
+}
+.header .sidebars dd a{
+	font-size:12px;
+	float: left;
+	color: #fff;
+	padding-right: 12px;
+	padding-bottom: 4px;
+}
+.header .sidebars dt{
+	margin-top: 15px;
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer .top{
+	background: #00cc5b;
+}
+.footer .top>ul{
+	width: 1110px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 48px 0 42px;
+}
+.footer .top>ul img{
+	float: left;
+	margin-top: 3px;
+}
+.footer .top>ul li{
+	float: left;
+	padding-right: 150px;
+	line-height: 38px;
+	margin-left: 5px;
+}
+.footer .top>ul li:last-child{
+	padding-right: 0;
+}
+
+.footer .main{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 22px;
+}
+.footer .main dl{
+	margin-top: 32px;
+	float: left;
+	margin-left: 95px;
+	color: #0e0e0e;
+}
+.footer .main dl:first-child{
+	margin-left: 0;
+}
+.footer .main dt{
+	font-size: 16px;
+	padding-bottom: 13px;
+}
+.footer .main dd{
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+.footer .main dd a{
+	font-size: 14px;
+	padding-bottom: 6px;
+	color: #0e0e0e;
+}
+.footer .main>div{
+	margin-top: 15px;
+	float: right;
+	position: relative;
+}
+.footer .main>div h2{
+	position: absolute;
+	width: 20px;
+	left: -25px;
+	font-size:16px ;
+	color: #0e0e0e;
+	bottom:40px;
+}
+
+.footer .tail{
+	background: #009944;
+}
+.footer .tail p{
+	font-size: 12px;
+	color: #feffff;
+	text-align: center;
+	line-height: 38px;
+}
+.content .carts{
+	position: fixed;
+	right: 0px;
+	top: 30%;
+}
+.content .carts li{
+	border: 1px solid #bfbfbf;
+	width: 60px;
+	text-align: center;
+	line-height: 60px;
+}
+.content .carts a{
+	display: inline-block;
+	line-height: 31px;
+}
+
+
+.header .sidebars:hover div{
+	display: block;
+}

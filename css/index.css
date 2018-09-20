@@ -1,0 +1,499 @@
+.content .hot{
+	padding-bottom: 43px;
+}
+.content .hot>div{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 70px;
+}
+.content .hot h2{
+	font-size: 30px;
+	color: #204a14;
+	float: left;
+	margin-left: 24px;
+}
+.content .hot>div>a{
+	float: right;
+	font-size: 12px;
+	color: #feffff;
+	line-height: 24px;
+	width: 88px;
+	background: #009944;
+	text-align: center;
+	margin-top: 15px;
+}
+.content .hot h2:before{
+	margin-left: -16px;
+	margin-top: 6px;
+	position: absolute;
+	display: block;
+	content: "";
+	width: 9px;
+	height: 30px;
+	background: #204a14;
+}
+.content .hot ul{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 32px;
+}
+.content .hot ul li img{
+	width: 238px;
+}
+.content .hot ul li{
+	float: left;
+	border: 1px solid #cbcbcb;
+}
+.content .hot ul li div{
+	background: #d9d9d9;
+	font-size:14px;
+	color: #202020;
+	padding-bottom: 12px;
+	padding-top: 18px;
+}
+.content .hot ul li h3{
+	font-size:14px;
+	text-align: center;
+	margin-bottom:11px;
+	color:#202020;
+}
+.content .hot ul li span{
+	color: #ff0000;
+	float: left;
+	margin-left: 43px;
+	padding-right: 8px;
+}
+.content .hot ul li:hover{
+	border: 1px solid #eb7474;
+}
+/*热门品牌结束*/
+
+/*新品上市开始*/
+.content .new{
+	background: #dffac8;
+	padding-top: 70px;
+	padding-bottom: 60px;
+}
+.content .new>div{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.content .new h2{
+	font-size: 30px;
+	color: #2f7bad;
+	float: left;
+	margin-left: 24px;
+}
+.content .new>div>a{
+	float: right;
+	font-size: 12px;
+	color: #feffff;
+	line-height: 24px;
+	background: #2f7bad;
+	text-align: center;
+	margin-top: 25px;
+	width: 88px;
+}
+.content .new .bef h2:before{
+	margin-left: -16px;
+	margin-top: 6px;
+	position: absolute;
+	display: block;
+	content: "";
+	width: 9px;
+	height: 30px;
+	background: #2f7bad;
+}
+.content .new .man .pic{
+	width: 696px;
+	float: left;
+}
+.content .new .man .btn{
+	position: absolute;
+	bottom: 77px;
+    left: 25%;
+    width: 100px;
+}
+.content .new .man .btn .current{
+	background: #006093;
+}
+.content .new .man .btn li{
+	display: inline-block;
+	margin: 5px;
+	width: 21px;
+	height: 21px;
+	border: 1px solid #a0a0a1;
+	background: #fff;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.content .new .man{
+	margin-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	overflow: hidden;
+}
+.content .new .man>img{
+	float: left;
+}
+.content .new .man .know img{
+	float:right;
+}
+.content .new .man .know{
+	margin: 0;
+}
+.content .new ul{
+	overflow: hidden;
+	width: 1200px;
+	margin: 0 auto;
+}
+.content .new .pic img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.content .new .pic li{
+	display: none;
+}
+.content .new .pic .current{
+	display: block;
+}
+.content .new ul li{
+	float: left;
+	margin-left: 30px;
+}
+.content .new ul li:first-child{
+	margin-left: 0;
+}
+.content .new ul li div{
+	overflow: hidden;
+	background: #fff;
+	font-size:14px;
+	color: #202020;
+	padding-bottom: 5px;
+	text-align: center;
+	padding-top: 16px;
+}
+.content .new ul li h3{
+	font-size:14px;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.content .new ul li h3 a{
+	color: #202020;
+}
+.content .new ul li h4{
+	display: inline-block;
+	color: #ff0000;
+}
+.content .new ul li span{
+	display: inline-block;
+	color: #ff0000;
+}
+.content .new ul p{
+	display: inline-block;
+}
+/*新品上市结束*/
+
+/*爆款推荐开始*/
+.content .recommend{
+	padding-top: 115px;
+	height: 1100px;
+}
+.content .recommend>div{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+.content .recommend>div>h2{
+	font-size: 30px;
+	color: #3fa501;
+	float: left;
+	margin-left: 24px;
+}
+.content .recommend>div>a{
+	float: right;
+	font-size: 12px;
+	color: #feffff;
+	line-height: 24px;
+	width: 88px;
+	background: #3fa501;
+	text-align: center;
+	margin-top: 15px;
+}
+.content .recommend .bef:before{
+	margin-left: -16px;
+	margin-top: 6px;
+	position: absolute;
+	display: block;
+	content: "";
+	width: 9px;
+	height: 30px;
+	background: #3fa501;
+}
+.content .recommend .mans{
+	margin-top: 40px;
+	width: 1200px;
+	margin: 0 auto;
+}
+.content .recommend .mans>div{
+	border: 1px solid #cccccc;
+	width: 584px;
+	height: 398px;
+	position: relative;
+	float: left;
+}
+.content .recommend .mans>div+div{
+	position: relative;
+	float: right;
+}
+.content .recommend .mans>div h3{
+	font-size: 30px;
+	color: #959595;
+}
+.content .recommend .mans>div h4{
+	font-size: 18px;
+	color: #3fa501;
+}
+.content .recommend .mans>div h2{
+	color: #ff5501;
+	font-size:27px;
+}
+.content .recommend .mans>div h2 span{
+	color: #ff5501;
+	font-size:41px;
+}
+.content .recommend .mans>div a{
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	width: 80px;
+	line-height: 25px;
+	text-align: center;
+	background: #72b649;
+	border-radius: 10px;
+}
+.content .recommend .mans>div>div{
+	position: absolute;
+	top:45px;
+	right: 80px;
+}
+.content .recommend .mans>div>a img{
+	position: absolute;
+	bottom: 10px;
+}
+.content .recommend .mans>div+div>div{
+	position: absolute;
+	top:45px;
+	left: 45px;
+}
+.content .recommend .mans>div+div>a img{
+	position: absolute;
+	right: 0;
+}
+.content .recommend ul{
+	width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+    padding-bottom: 40px;
+}
+.content .recommend ul li{
+	float: left;
+	width: 275px;
+	border: 1px solid #cdcdcd;
+	margin-left: 30px;
+	position: relative;
+}
+.content .recommend ul li:first-child{
+	margin-left: 0;
+}
+.content .recommend ul h4{
+	color:#122904;
+	font-size:16px;
+	background: #d9edcc;
+	line-height: 45px;
+	text-align: center;
+}
+.content .recommend ul li>a{
+	display: block;
+}
+.content .recommend ul li>div a{
+	color:#fff;
+	font-size:14px;
+	background: #72b649;
+	display: block;
+	width: 96px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 20px;
+	margin: 0 auto;
+}
+.content .recommend ul h5{
+	color:#ff5400;
+	font-size: 23px;
+	text-align: center;
+}
+.content .recommend ul span{
+	color:#ff5400;
+	font-size: 35px;
+}
+.content .recommend ul div{
+	position: absolute;
+	top: 220px;
+    left: 66px;
+}
+.content .recommend ul img{
+	width: 100%;
+}
+/*爆款推荐结束*/
+
+/*热门品牌开始*/
+.content .brand{
+	width: 1200px;
+	margin: 0 auto;
+	padding-bottom: 159px;
+	position: relative;
+}
+.content .brand h2{
+	font-size: 30px;
+	color: #00701d;
+	float: left;
+	margin-left: 24px;
+}
+.content .brand>div>a{
+	float: right;
+	font-size: 12px;
+	color: #feffff;
+	line-height: 24px;
+	width: 88px;
+	background: #00701d;
+	text-align: center;
+	margin-top: 30px;
+}
+.content .brand h2:before{
+	margin-left: -16px;
+	margin-top: 6px;
+	position: absolute;
+	display: block;
+	content: "";
+	width: 9px;
+	height: 30px;
+	background: #00701d;
+}
+.content .brand>div{
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.content .brand ul{
+	overflow: hidden;
+}
+.content .brand ul li>a{
+	display: inline-block;
+}
+.content .brand ul li{
+	float: left;
+	margin-left: 42px;
+}
+.content .brand ul li:nth-child(1),.content .brand ul li:nth-child(4){
+	margin-left: 0;
+}
+.content .brand ul li h3{
+	font-size:16px;
+	color: #0c0c0c;
+}
+.content .brand ul li span{
+	font-size:16px;
+	color: #868886;
+}
+.content .brand ul li h4{
+	display: inline;
+    font-size: 34px;
+    color: #ff0000;
+}
+.content .brand ul li h4 span{
+    font-size: 34px;
+    color: #ff0000;
+}
+.content .brand ul li div{
+	margin-top: 25px;
+	text-align: center;
+	margin-bottom: 69px;
+}
+.content .brand>img{
+	position: absolute;
+	left:35%;
+	bottom:50px;
+}
+/*热门品牌结束*/
+.banner{
+	height: 600px;
+	position: relative;
+	overflow: hidden;
+}
+.banner .pic{
+	width: 999999px;
+	position: absolute;
+	left:0;
+	top:0;
+	overflow: hidden;
+}
+.banner .pic li img{
+	width: 100%;
+	height: 100%;
+}
+.banner .pic li{
+	
+	float:left;
+}
+.banner .pic .current{
+	display: block;
+}
+.banner .prev{
+	width: 100px;
+	height: 170px;
+	position: absolute;
+	left: 260px;
+	top:50%;
+	margin-top: -85px;
+	background: url(../img/ban-le.png) 0px 0px no-repeat;
+}
+.banner .next{
+	width: 100px;
+	height: 170px;
+	position: absolute;
+	right: 250px;
+	top:50%;
+	margin-top: -85px;
+	background: url(../img/ban-ri.png) 0px 0px no-repeat;
+}
+.banner .next:hover{
+	background: url(../img/ban-le2.png) 0px 0px no-repeat;
+}
+.banner .prev:hover{
+	background: url(../img/ban-ri2.png) 0px 0px no-repeat;
+}
+.banner .btn{
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	margin-left: -35px;
+}
+.banner .btn li{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: #fff;
+	margin: 2px;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.banner .btn .current{
+	background: #a6eeb1;
+}
+.banner .btn li:hover{
+	background: #a6eeb1;
+}

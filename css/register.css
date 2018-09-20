@@ -1,0 +1,130 @@
+.header{
+	width: 1180px;
+	margin: 0 auto;
+	padding-left: 20px;
+	color: #009944;
+	overflow: hidden;
+	border-bottom:3px solid #009944 ;
+}
+.header img{
+	float: left;
+	padding-right: 45px;
+	margin-top: 40px;
+}
+.header h2{
+	font-size: 40px;
+	margin-top: 79px;
+	margin-bottom: 15px;
+}
+.header div{
+	position: relative;
+	float: right;
+	padding-right: 70px;
+	padding-bottom: 9px;
+}
+.header div p{
+	display: inline-block;
+	font-size: 12px;
+	color: #191919;
+	margin-left: 40px;
+}
+.header div span{
+	font-size: 12px;
+	color: #191919;
+	margin-left: 40px;
+}
+.header a{
+	font-size: 12px;
+	color: #009944;
+}
+.header div span:before{
+	content: "";
+	display: inline-block;
+	width: 1px;
+	height: 17px;
+	background: #191919;
+	position: absolute;
+	left: 194px;
+	top:3px;
+}
+.content{
+	width: 785px;
+	margin: 0 auto;
+	border: 1px solid #565656;
+	border-radius: 10px;
+	margin-top: 48px;
+	padding-bottom: 32px;
+	margin-bottom: 90px;
+}
+.content .list{
+	margin: 0 auto;
+	width: 402px;
+	margin-top: 50px;
+}
+.content li{
+	margin-top: 30px;
+	line-height: 54px;
+	border: 1px solid #bfbfbf;
+	padding-left: 20px;
+	overflow: hidden;
+}
+.content li span{
+	font-size:16px;
+	color: #191919;
+}
+.content li input{
+	font-size:16px;
+	color: #b4b4b4;
+	width: 283px;
+	float: right;
+	line-height: 54px;
+}
+.content li .china{
+	background: url(../img/co-p-bg.jpg) 70px 23px no-repeat;
+	border-right:1px solid #bfbfbf ;
+	padding-right: 18px;
+	display: inline-block;
+}
+.content li .code{
+	width: 140px;
+	float: none;
+}
+.content li .code+a{
+	float: right;
+	width: 110px;
+	line-height: 45px;
+	background: #e5e5e5;
+	font-size: 16px;
+	color: #191919;
+	text-align: center;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+.content .register{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.content .register label{
+	font-size: 14px;
+	color:#191919 ;
+}
+.content .register a:last-child{
+	display: block;
+	line-height: 55px;
+	color: #fff;
+	font-size:20px;
+	background: #009944;
+	text-align: center;
+	margin-top: 10px;
+}
+.footer{
+	margin-top: 37px;
+	background: #009944;
+}
+.footer P{
+	text-align: center;
+	line-height: 38px;
+	font-size: 12px;
+	color: #feffff;
+}
